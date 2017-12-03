@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Jesus Fim widget\n"
+"POT-Creation-Date: 2017-12-02 15:02+0100\n"
+"PO-Revision-Date: 2017-12-02 15:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: Agapé France <communication@agapefrance.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class.php:26
+msgid "Widgets Page"
+msgstr "Page des widgets"
+
+#: includes/widget.php:20
+msgid "The Evandis widget "
+msgstr "Widget Evandis"
+
+#: includes/widget.php:21
+msgid "Displays the Evandis in a widget."
+msgstr "Afficher Evandis dans un widget"
+
+#: includes/widget.php:122
+msgid "Proposed by Evandis.fr"
+msgstr "Proposé par Evandis.fr"
+
+#: includes/widget.php:166
+msgid "Découvrez Evandis"
+msgstr "Découvrez Evandis"
+
+#: includes/widget.php:182
+msgid "Title:"
+msgstr "Titre :"
+
+#: includes/widget.php:186
+msgid "Choose your category:"
+msgstr "Choisissez votre catégorie :"
+
+#: includes/widget.php:191
+msgid "Choose your format:"
+msgstr "Choisissez votre format :"
+
+#: includes/widget.php:193
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: includes/widget.php:194
+msgid "Full"
+msgstr "Complet"
+
+#: includes/widget.php:198
+msgid "Color Text:"
+msgstr "Couleur du texte :"
+
+#: includes/widget.php:199
+msgid "Color link:"
+msgstr "Couleur du lien :"
+
+#: includes/widget.php:201
+msgid "Color link hover:"
+msgstr "Couleur des liens survolés :"
+
+#: includes/widget.php:203
+msgid "Background Color"
+msgstr "Couleur d’arrière-plan"
+
+#: includes/widget.php:207
+msgid "Width:"
+msgstr "Largeur :"
+
+#: includes/widget.php:210
+msgid "Height:"
+msgstr "Hauteur :"
+
+#: includes/widget.php:214
+msgid "Border:"
+msgstr "Bordure :"
+
+#: includes/widget.php:216 includes/widget.php:222
+msgid "No"
+msgstr "Non"
+
+#: includes/widget.php:217 includes/widget.php:223
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/widget.php:220
+msgid "Scrolling:"
+msgstr "Défilement"
+
+#~ msgid "Displays the Jesus film (French version of Agapé France) in a widget."
+#~ msgstr "Affichez le film Jésus (version française d'Agapé France) dans un widget."
+
+#~ msgid "Visit Jesus.fr"
+#~ msgstr "Visitez Jesus.fr"
+
+#~ msgid "Jesus, his life, his mission"
+#~ msgstr "Jésus, sa vie, sa mission"
+
+#~ msgid "Logo:"
+#~ msgstr "Logo :"
+
+#~ msgid "Dark"
+#~ msgstr "Foncé"
+
+#~ msgid "White"
+#~ msgstr "Blanc"

@@ -1,0 +1,98 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Jesus Fim widget\n"
+"POT-Creation-Date: 2017-12-02 15:02+0100\n"
+"PO-Revision-Date: 2015-03-19 11:19+0100\n"
+"Last-Translator: Florent Maillefaud <contact@restezconnectes.fr>\n"
+"Language-Team: Agapé France <communication@agapefrance.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class.php:26
+msgid "Widgets Page"
+msgstr ""
+
+#: includes/widget.php:20
+msgid "The Evandis widget "
+msgstr ""
+
+#: includes/widget.php:21
+msgid "Displays the Evandis in a widget."
+msgstr ""
+
+#: includes/widget.php:122
+msgid "Proposed by Evandis.fr"
+msgstr ""
+
+#: includes/widget.php:166
+msgid "Découvrez Evandis"
+msgstr ""
+
+#: includes/widget.php:182
+msgid "Title:"
+msgstr ""
+
+#: includes/widget.php:186
+msgid "Choose your category:"
+msgstr ""
+
+#: includes/widget.php:191
+msgid "Choose your format:"
+msgstr ""
+
+#: includes/widget.php:193
+msgid "Excerpt"
+msgstr ""
+
+#: includes/widget.php:194
+msgid "Full"
+msgstr ""
+
+#: includes/widget.php:198
+msgid "Color Text:"
+msgstr ""
+
+#: includes/widget.php:199
+msgid "Color link:"
+msgstr ""
+
+#: includes/widget.php:201
+msgid "Color link hover:"
+msgstr ""
+
+#: includes/widget.php:203
+msgid "Background Color"
+msgstr ""
+
+#: includes/widget.php:207
+msgid "Width:"
+msgstr ""
+
+#: includes/widget.php:210
+msgid "Height:"
+msgstr ""
+
+#: includes/widget.php:214
+msgid "Border:"
+msgstr ""
+
+#: includes/widget.php:216 includes/widget.php:222
+msgid "No"
+msgstr ""
+
+#: includes/widget.php:217 includes/widget.php:223
+msgid "Yes"
+msgstr ""
+
+#: includes/widget.php:220
+msgid "Scrolling:"
+msgstr ""
