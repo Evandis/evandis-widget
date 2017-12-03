@@ -212,13 +212,13 @@ class evandw_widget extends WP_Widget {
         </p>
         <p>
             <label for="<?php echo $this->get_field_id( 'iframe_border' ); ?>"><strong><?php _e( 'Border:', $this->textdomain ); ?></strong></label> 
-            <select class="widefat" style="width:50px;" id="<?php echo $this->get_field_id( 'iframe_border' ); ?>" name="<?php echo $this->get_field_name( 'iframe_border' ); ?>" >
+            <select class="widefat" style="width:58px;" id="<?php echo $this->get_field_id( 'iframe_border' ); ?>" name="<?php echo $this->get_field_name( 'iframe_border' ); ?>" >
                 <option value="0" <?php if( esc_attr( $instance['iframe_border'] ) == 0 ) { echo 'selected'; } ?>><?php _e( 'No', $this->textdomain ); ?></option>
                 <option value="1" <?php if( esc_attr( $instance['iframe_border'] ) == 1 ) { echo 'selected'; } ?>><?php _e( 'Yes', $this->textdomain ); ?></option>
             </select>
             &nbsp;&nbsp;
             <label for="<?php echo $this->get_field_id( 'iframe_scroll' ); ?>"><strong><?php _e( 'Scrolling:', $this->textdomain ); ?></strong></label> 
-            <select class="widefat" style="width:50px;" id="<?php echo $this->get_field_id( 'iframe_scroll' ); ?>" name="<?php echo $this->get_field_name( 'iframe_scroll' ); ?>" >
+            <select class="widefat" style="width:58px;" id="<?php echo $this->get_field_id( 'iframe_scroll' ); ?>" name="<?php echo $this->get_field_name( 'iframe_scroll' ); ?>" >
                 <option value="no" <?php if( esc_attr( $instance['iframe_scroll'] ) == 'no' ) { echo 'selected'; } ?>><?php _e( 'No', $this->textdomain ); ?></option>
                 <option value="yes" <?php if( esc_attr( $instance['iframe_scroll'] ) == 'yes' ) { echo 'selected'; } ?>><?php _e( 'Yes', $this->textdomain ); ?></option>
             </select>
