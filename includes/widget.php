@@ -182,7 +182,7 @@ class evandw_widget extends WP_Widget {
             <label for="<?php echo $this->get_field_id( 'title' ); ?>"><strong><?php _e( 'Title:', $this->textdomain ); ?></strong></label> 
             <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $instance['title'] ); ?>" />
         </p>
-        <p><?php wp_list_categories(); ?>
+        <p>
             <label for="<?php echo $this->get_field_id( 'rubrique' ); ?>"><strong><?php _e( 'Choose your category:', $this->textdomain ); ?></strong></label> 
             <select class="widefat" id="<?php echo $this->get_field_id( 'rubrique' ); ?>" name="<?php echo $this->get_field_name( 'rubrique' ); ?>" >
                 <option value="1" <?php if( esc_attr( $instance['rubrique'] ) == 1 ) { echo 'selected'; } ?>>La Manne d'Aujourd'hui</option>
