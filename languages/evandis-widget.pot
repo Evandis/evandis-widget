@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Jesus Fim widget\n"
-"POT-Creation-Date: 2017-12-02 15:02+0100\n"
+"POT-Creation-Date: 2017-12-03 13:38+0100\n"
 "PO-Revision-Date: 2015-03-19 11:19+0100\n"
 "Last-Translator: Florent Maillefaud <contact@restezconnectes.fr>\n"
 "Language-Team: Agapé France <communication@agapefrance.org>\n"
@@ -70,7 +70,7 @@ msgid "Color link hover:"
 msgstr ""
 
 #: includes/widget.php:203
-msgid "Background Color"
+msgid "Background Color:"
 msgstr ""
 
 #: includes/widget.php:207

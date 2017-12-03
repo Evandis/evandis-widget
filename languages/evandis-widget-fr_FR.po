@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Jesus Fim widget\n"
-"POT-Creation-Date: 2017-12-02 15:02+0100\n"
-"PO-Revision-Date: 2017-12-02 15:03+0100\n"
+"POT-Creation-Date: 2017-12-03 13:38+0100\n"
+"PO-Revision-Date: 2017-12-03 13:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: Agapé France <communication@agapefrance.org>\n"
 "Language: fr_FR\n"
@@ -69,8 +69,8 @@ msgid "Color link hover:"
 msgstr "Couleur des liens survolés :"
 
 #: includes/widget.php:203
-msgid "Background Color"
-msgstr "Couleur d’arrière-plan"
+msgid "Background Color:"
+msgstr "Couleur d’arrière-plan :"
 
 #: includes/widget.php:207
 msgid "Width:"

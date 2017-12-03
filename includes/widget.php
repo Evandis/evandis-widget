@@ -105,7 +105,7 @@ class evandw_widget extends WP_Widget {
         if( isset($color) && $color != '' ) { $add['color'] = str_replace('#', '', $color); }
         if( isset($color1) && $color1 != '' ) { $add['color1'] = str_replace('#', '', $color1); }
         if( isset($typetext) && $typetext != '' ) { $add['typetext'] = $typetext; }
-        if( isset($add['typetext']) && $add['typetext'] == 1) { $iframe_height = 150;}
+        if( isset($add['typetext']) && $add['typetext'] == 1) { $iframe_height = 200;}
         
         $campagne = array( 
             1 => 'la-manne-daujourdhui',
@@ -182,7 +182,7 @@ class evandw_widget extends WP_Widget {
             <label for="<?php echo $this->get_field_id( 'title' ); ?>"><strong><?php _e( 'Title:', $this->textdomain ); ?></strong></label> 
             <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $instance['title'] ); ?>" />
         </p>
-        <p>
+        <p><?php wp_list_categories(); ?>
             <label for="<?php echo $this->get_field_id( 'rubrique' ); ?>"><strong><?php _e( 'Choose your category:', $this->textdomain ); ?></strong></label> 
             <select class="widefat" id="<?php echo $this->get_field_id( 'rubrique' ); ?>" name="<?php echo $this->get_field_name( 'rubrique' ); ?>" >
                 <option value="1" <?php if( esc_attr( $instance['rubrique'] ) == 1 ) { echo 'selected'; } ?>>La Manne d'Aujourd'hui</option>
@@ -200,7 +200,7 @@ class evandw_widget extends WP_Widget {
             <input class="widefat color-picker" data-default-color="#ea5b0c" id="<?php echo $this->get_field_id( 'color' ); ?>" name="<?php echo $this->get_field_name( 'color' ); ?>" type="text" value="<?php echo esc_attr( $instance['color'] ); ?>" />
             <label for="<?php echo $this->get_field_id( 'color1' ); ?>"><strong><?php _e( 'Color link hover:' , $this->textdomain); ?></strong></label>
             <input class="widefat color-picker" data-default-color="#94c11f" id="<?php echo $this->get_field_id( 'color1' ); ?>" name="<?php echo $this->get_field_name( 'color1' ); ?>" type="text" value="<?php echo esc_attr( $instance['color1'] ); ?>" />
-            <label for="<?php echo $this->get_field_id( 'background_color' ); ?>"><strong><?php _e( 'Background Color', $this->textdomain ); ?></strong></label>
+            <label for="<?php echo $this->get_field_id( 'background_color' ); ?>"><strong><?php _e( 'Background Color:', $this->textdomain ); ?></strong></label>
             <input class="widefat color-picker" type="text" id="<?php echo $this->get_field_id( 'background_color' ); ?>" name="<?php echo $this->get_field_name( 'background_color' ); ?>" value="<?php echo esc_attr( $instance['background_color'] ); ?>" />                            
         </p>
         <p>
