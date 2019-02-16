@@ -8,6 +8,6 @@ Displays the Evandis texts in a widget.
 
 ### Some screenshots:
 
-![Widget admin View](https://evandis.fr/widget/images/screenshot-1.png)
+![Widget admin View](screenshot-1.png)
 
-![Widget in action](https://evandis.fr/widget/images/screenshot-2.png)
+![Widget in action](screenshot-2.png)
